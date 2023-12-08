@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/OBJECT_DETECTION/second_vehicle_detection/secondone/train/images
+val: /content/drive/MyDrive/OBJECT_DETECTION/second_vehicle_detection/secondone/valid/images
+test: /content/drive/MyDrive/OBJECT_DETECTION/second_vehicle_detection/secondone/test/images
+
+nc: 4
+names: ['bus', 'car', 'lorry', 'moto']
+
+roboflow:
+  workspace: muhammad-akhram-cz2n2
+  project: vehicle-xsfhl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-akhram-cz2n2/vehicle-xsfhl/dataset/1
